@@ -1,9 +1,18 @@
-<section class="flex flex-col gap-y-10">
-    <section class="bg-gradient-to-b from-purple-500 to-pink-600 p-10 flex glex-col w-full h-full">
-        <div class="w-96 p-6 flex flex-col bg-gradient-to-b from-purple-600 to-pink-600 rounded-md m-auto gap-y-6" style="min-height:30rem">
-            <h1>Login</h1>
-            <input class=" px-2 h-8 w-full" type="text" placeholder="Username">
-            <input class=" px-2 h-8 w-full" type="password" placeholder="Password">
-        </div>
+<section class="flex flex-col gap-y-60">
+    <section class="flex flex-col w-full text-white bg-gradient-to-br from-pink to-blue h-960">
+        <form class="flex flex-col m-auto rounded-lg p-30 min-w-360 bg-black-overlay-10 gap-y-20 min-h-360">
+            <h1 class="text-xl font-bold tracking-wider text-center text-white">Login</h1>
+            <input class="w-full px-10 rounded h-36 bg-black-overlay-60" type="text" placeholder="Username">
+            <input class="w-full px-10 rounded h-36 bg-black-overlay-60" type="password" placeholder="Password">
+            <button type="submit" class="mt-20 text-sm font-bold text-white uppercase rounded h-36 min-w-96 bg-pink hover:bg-pink-dark">Submit</button>
+            <div class="flex items-center gap-x-10">
+                <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
+                <label for="binary" class="">Remember me</label>
+            </div>
+            <div class="flex items-center gap-x-10">
+                <p-radioButton [(ngModel)]="checked" [binary]="true" inputId="binary"></p-radioButton>
+                <label for="binary" class="">Remember me</label>
+            </div>
+        </form>
     </section>
 </section>

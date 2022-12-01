@@ -11,5 +11,7 @@ export class ComponentLibraryComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  checked = false;
+  selectedCities: string[] = [];
 
 }

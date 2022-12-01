@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 2,
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "html.format.wrapAttributes": "preserve-aligned",
+    "html.format.wrapLineLength": 0,
+    "tailwindCSS.rootFontSize": 10,
+    "html-css-class-completion.includeGlobPattern": "**/*.{css, scss, html}",
+}

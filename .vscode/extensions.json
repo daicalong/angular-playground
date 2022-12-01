@@ -1,4 +1,16 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
-  "recommendations": ["angular.ng-template"]
+  "recommendations": [
+    "mikael.angular-beastcode",
+    "angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    "johnpapa.angular2",
+    "ms-dotnettools.csharp",
+    "naumovs.color-highlight",
+    "dbaeumer.vscode-eslint",
+    "heybourn.headwind",
+    "abusaidm.html-snippets",
+    "ms-vscode-remote.remote-containers",
+    "sibiraj-s.vscode-scss-formatter",
+    "bradlc.vscode-tailwindcss"
+  ]
 }
